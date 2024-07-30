@@ -1,0 +1,13 @@
+# Text to speech settings
+ttsSettings:
+  speedOfSpeech: 150 # best is 100-200
+  volume : 1.0 # goes from 0.0 to 1.0 
+  # The number of speakers depends on how many voices are installed on 
+  # Windows PC. By changing the speaker index, different speaker is selected
+  # if installed.
+  speaker: 0
+
+# Fast API server
+server:
+  host: "127.0.0.1"
+  port: 3002
